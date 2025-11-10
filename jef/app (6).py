@@ -2,8 +2,6 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from ultralytics import YOLO
-import os
 
 model_path = '/content/best (7).pt'
 if not os.path.exists(model_path):
